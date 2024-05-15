@@ -1,0 +1,14 @@
+// In Visual Studio Code, go to File > Preferences > User Snippets > javascript.json
+
+{
+    "For Loop": {
+      "prefix": "forloop",
+      "body": [
+        "for (let i = 0; i < ${1:length}; i++) {",
+        "\t${2:// Your code here}",
+        "}"
+      ],
+      "description": "Create a simple for loop"
+    }
+  }
+  
